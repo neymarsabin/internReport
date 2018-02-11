@@ -1,0 +1,11 @@
+#+LATEX_CLASS: report
+#+LATEX_CLASS_OPTIONS: [a4paper,12pt]
+#+LATEX_HEADER: \usepackage{margin=1in}[geometry]
+#+LATEX_HEADER_EXTRA: 
+#+KEYWORDS:
+#+SUBTITLE: 
+#+LATEX_COMPILER: pdflatex
+#+DATE: \today
+
+* Heading 
+	
