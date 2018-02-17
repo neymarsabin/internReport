@@ -1,6 +1,5 @@
-% Created 2018-02-11 Sun 16:26
-% Intended LaTeX compiler: pdflatex
-\documentclass[a4paper,12pt]{report}
+\documentclass[a4paper,12pt,justified]{report}
+\usepackage[a4paper,width=150mm,top=10mm,bottom=25mm,bindingoffset=6mm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
@@ -14,23 +13,35 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
-\usepackage{margin=1in}[geometry]
 \author{neymarsabin}
 \date{\today}
-\title{}
+\title{Internship Report On Leaves Management System}
 \hypersetup{
  pdfauthor={neymarsabin},
- pdftitle={},
+ pdftitle={Internship Report On Leaves Management System},
  pdfkeywords={},
  pdfsubject={},
  pdfcreator={Emacs 25.3.1 (Org mode 9.1.1)}, 
  pdflang={English}}
 \begin{document}
 
+
+\chapter*{Abstract}
+\chapter*{Acknowledgements}
+\chapter*{Letter of Apporval}
+
 \tableofcontents
 
+\chapter{Introduction}
+\input{chapters/introduction}
 
-\chapter{Heading}
-\label{sec:orgeecf142}
-Random text 
+\chapter{Literature Review}
+\input{chapters/literaturereview}
+
+\chapter{System Analysis}
+\input{chapters/systemanalysis}
+
+\chapter{System Design}
+\input{chapters/systemdesign}
+
 \end{document}
